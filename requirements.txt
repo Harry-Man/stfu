@@ -1,1 +1,2 @@
-tensorflow>=2.6.0
+tensorflow>=2.6.0; sys_platform == 'linux'
+tensorflow-macos>=2.6.0; sys_platform == 'darwin'
